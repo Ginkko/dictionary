@@ -15,6 +15,7 @@ describe(Defenition) do
 end
 
 describe(Word) do
+
   before () do
     Word.clear()
   end

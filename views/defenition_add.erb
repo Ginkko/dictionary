@@ -1,0 +1,16 @@
+<div class='page-header text-center'>
+  <h1>Add a Defenition</h1>
+</div>
+
+<h1>Add a defenition to <%= @word.name() %></h1>
+
+<form action="/word_detail" method="post">
+    <div class="form-group">
+      <input type="hidden" id="word_name" name="word_name" value="<%= @word.name() %>">
+
+      <label for='defenition'>Enter Defenition:</label>
+      <input type='text' id='defenition' name='defenition'>
+
+      <button type="submit" name="save_defenition">Save</button>
+    </div>
+</form>
