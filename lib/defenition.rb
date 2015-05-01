@@ -1,8 +1,8 @@
 class Defenition
-  attr_reader(:value)
+  attr_reader(:defenition)
 
-  def initialize(value)
-    @value = value
+  def initialize(defenition)
+    @defenition = defenition 
   end
-  
+
 end
