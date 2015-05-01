@@ -19,4 +19,12 @@ class Word
     @@word_list
   end
 
+  def self.find(name)
+    found_word = nil
+    @@word_list.each() do |word|
+      found_word = word if word.name() == name
+    end
+    found_word
+  end
+
 end

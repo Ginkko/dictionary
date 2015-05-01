@@ -33,4 +33,14 @@ describe(Word) do
     end
   end
 
+  describe('.find') do
+    it('returns a word by its name') do
+        test_word_0 = Word.new('Road')
+        test_word_0.save()
+        test_word_1 = Word.new('River')
+        test_word_1.save()
+        expect(Word.find(test_word_1.name())).to(eq(test_word_1))
+    end
+  end
+
 end
