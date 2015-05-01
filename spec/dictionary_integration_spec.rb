@@ -29,5 +29,4 @@ describe('Integration-Wrapper') do
       expect(page).to have_content('Test')
     end
   end
-
 end
