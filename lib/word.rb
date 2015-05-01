@@ -27,4 +27,8 @@ class Word
     found_word
   end
 
+  def self.clear
+    @@word_list = []
+  end
+
 end

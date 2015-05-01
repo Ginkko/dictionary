@@ -15,6 +15,9 @@ describe(Defenition) do
 end
 
 describe(Word) do
+  before () do
+    Word.clear()
+  end
 
   describe('#save') do
     it('saves a word to the list of words') do
