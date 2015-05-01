@@ -6,4 +6,3 @@ Dictionary is an app that allows a user to create words, and attach definitions 
 Be sure to bundle to install all necessary gems when running locally.
 
 MIT License
- 

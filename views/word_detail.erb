@@ -1,15 +1,12 @@
 <div class='page-header text-center'>
   <h1>Word Detail</h1>
 </div>
-
 <h4><%= @word.name() %>:</h4>
-
 <ul>
   <% @word.defenition_list.each() do |defenition| %>
   <li><%= defenition.defenition() %></li>
   <% end %>
 </ul>
-
 <div class='col-md-6 text-center'>
   <a href="/word_detail/<%= @word.name()%>/defenition_add">Add a New Defeniton</a>
 </div>
